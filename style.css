@@ -938,7 +938,7 @@ footer .links form{
   }
 
   header{
-    height: 120vh;
+    height: 20vh;
   }
 
   .apropos-section .right img{
@@ -963,11 +963,5 @@ footer .links form{
 
   .telephone .tel-btn{
     margin-top: 30px;
-  }
-}
-
-@media (max-width: 435px){
-  header{
-    height: 120vh;
   }
 }
