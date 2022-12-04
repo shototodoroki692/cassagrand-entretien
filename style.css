@@ -924,4 +924,36 @@ footer .links form{
   .apropos-section .btn-mobile{
     margin-top: 45px;
   }
+
+  .apropos-section .left h1{
+    margin-top: 0px;
+  }
+
+  header{
+    height: 110vh;
+  }
+
+  .apropos-section .right img{
+    width: 300px;
+  }
+
+  .galerie1{
+    grid-template-columns: repeat(auto-fill, 300px);
+  }
+
+  .galerie3{
+    grid-template-columns: repeat(auto-fill, 300px);
+  }
+
+  .galerie2{
+    grid-template-columns: repeat(auto-fill, 300px);
+  }
+
+  .links form .submit-btn{
+    width: 200px;
+  }
+
+  .telephone .tel-btn{
+    margin-top: 30px;
+  }
 }
