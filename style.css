@@ -46,6 +46,7 @@ body {
 .btn:hover {
   background: #5061af;
   transition:0.7s;
+  color: var(--light-color);
 }
 
 .btn.light {
@@ -541,7 +542,7 @@ nav.mobile-nav,
   }
 
   header{
-    height: 120vh;
+    height: 135vh;
   }
 
   .logo h2{
@@ -821,7 +822,7 @@ nav.mobile-nav,
   }
 
   header{
-    height: 100vh;
+    height: 115vh;
   }
 
   .apropos-section .left p {
@@ -918,8 +919,15 @@ footer .links form{
 .submit-btn {
   padding: 8px 20px;
 }
+}
 
 @media (max-width: 550px){
+  header{
+    height: 120vh;
+  }
+}
+
+@media (max-width: 450px){
 
   .apropos-section .btn-mobile{
     margin-top: 45px;
